@@ -2,3 +2,9 @@ extends layout
 
 block content
   h1 David's recipes
+
+  if recipes.length
+    each recipe in recipes
+      a.btn.btn-primary(href="#")= recipe.name
+  else
+    p No recipes yet :(

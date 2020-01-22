@@ -1,0 +1,32 @@
+{
+    "recipes": [
+        { 
+            "name": "Souvlaki skewers",
+            "steps": [
+                "Marinate halloumi, courgette, pepper, onion etc in oil, half lemon jouce, oregano, sumac, garlic and allspice",
+                "Thread onto skewers and grill for 7 minutes on each side",
+                "Serve with humous, tzatziki, flat bread and salad"
+            ]      
+        },
+        { 
+            "name": "Pasta norma",
+            "steps": [
+                "Cut an aubergine into 2cm cubes. Salt and leave in colander for 30 mins then roast for 20 mins",
+                "Fry garlic and mix with tin of plum tomatoes and some basil",
+                "Cook for 20 to 30 minutes to thicken",
+                "Add aubergine to suace",
+                "Mix with paste and grate 25g per person ricotta salata or feta over the top with basil"
+            ]      
+        },
+        { 
+            "name": "Asparagus risotto",
+            "steps": [
+                "Fry a couple of shallots in butter",
+                "Add 200g chopped asparagus",
+                "Add 200g of risotto rice",
+                "Keep adding vegetable stock until risotto is cooked",
+                "Add parmesan"
+            ]      
+        }  
+    ] 
+}
