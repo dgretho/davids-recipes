@@ -1,3 +1,6 @@
+# Public folder (this should be populated by the build process)
+public
+
 # Logs
 logs
 *.log
