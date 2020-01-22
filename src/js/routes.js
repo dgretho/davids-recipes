@@ -12,4 +12,12 @@ router.get('/', (req, res) => {
         .catch(() => { res.send('Sorry! Something went wrong.'); })
 })
 
+router.get('/recipe/:recipeName', (req, res) => {
+    Recipe.findOne({ shortName: req.params.recipeName})
+        .then((recipe) => {
+            res.render('recipe', { title: recipe.name, recipe })
+        })
+        .catch(() => { res.send('Sorry! Something went wrong.'); })
+})
+
 module.exports = router

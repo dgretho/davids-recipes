@@ -2,6 +2,8 @@
     "recipes": [
         { 
             "name": "Souvlaki skewers",
+            "shortName": "souvlaki",
+            "description": "Grilled halloumi and vegatable skewers",
             "steps": [
                 "Marinate halloumi, courgette, pepper, onion etc in oil, half lemon jouce, oregano, sumac, garlic and allspice",
                 "Thread onto skewers and grill for 7 minutes on each side",
@@ -10,6 +12,8 @@
         },
         { 
             "name": "Pasta norma",
+            "shortName": "pastaNorma",
+            "description": "A tomato pasta with aubergine and ricotta salata",
             "steps": [
                 "Cut an aubergine into 2cm cubes. Salt and leave in colander for 30 mins then roast for 20 mins",
                 "Fry garlic and mix with tin of plum tomatoes and some basil",
@@ -20,6 +24,8 @@
         },
         { 
             "name": "Asparagus risotto",
+            "shortName": "asparagusRisotto",
+            "description": "Does what it says on the tin this one",
             "steps": [
                 "Fry a couple of shallots in butter",
                 "Add 200g chopped asparagus",

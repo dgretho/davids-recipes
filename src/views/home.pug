@@ -5,6 +5,8 @@ block content
 
   if recipes.length
     each recipe in recipes
-      a.btn.btn-primary(href="#")= recipe.name
+      p
+        a(href='recipe/' + recipe.shortName)= recipe.name
+        p= recipe.description
   else
     p No recipes yet :(
