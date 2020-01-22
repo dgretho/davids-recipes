@@ -1,0 +1,24 @@
+{
+  "name": "davids-recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgretho/davids-recipes.git"
+  },
+  "author": "David Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgretho/davids-recipes/issues"
+  },
+  "homepage": "https://github.com/dgretho/davids-recipes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
