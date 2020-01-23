@@ -4,3 +4,7 @@ block content
   h1= recipe.name
 
   p= recipe.description
+
+  ol
+    each step in recipe.steps
+      li= step
