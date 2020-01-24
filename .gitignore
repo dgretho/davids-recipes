@@ -1,5 +1,6 @@
 # Public folder (this should be populated by the build process)
-public
+# Include public for now until I set up a proper build process
+#public
 
 # Logs
 logs
