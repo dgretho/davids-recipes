@@ -3,10 +3,9 @@ extends layout
 block content
   h1 David's recipes
 
-  if recipes.length
-    each recipe in recipes
+  if categories.length
+    each category in categories
       p
-        a(href='recipe/' + recipe.shortName)= recipe.name
-        p= recipe.description
+        a(href='/category/' + category.shortName)= category.name
   else
-    p No recipes yet :(
+    p No categories yet :(

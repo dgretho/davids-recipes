@@ -8,7 +8,10 @@
                 "Marinate halloumi, courgette, pepper, onion etc in oil, half lemon jouce, oregano, sumac, garlic and allspice",
                 "Thread onto skewers and grill for 7 minutes on each side",
                 "Serve with humous, tzatziki, flat bread and salad"
-            ]      
+            ],
+            "categories": [
+                "vegetarian"
+            ]
         },
         { 
             "name": "Pasta norma",
@@ -20,7 +23,11 @@
                 "Cook for 20 to 30 minutes to thicken",
                 "Add aubergine to suace",
                 "Mix with paste and grate 25g per person ricotta salata or feta over the top with basil"
-            ]      
+            ],
+            "categories": [
+                "vegetarian",
+                "pasta"
+            ]
         },
         { 
             "name": "Asparagus risotto",
@@ -32,7 +39,74 @@
                 "Add 200g of risotto rice",
                 "Keep adding vegetable stock until risotto is cooked",
                 "Add parmesan"
-            ]      
-        }  
-    ] 
+            ],
+            "categories": [
+                "vegetarian",
+                "risotto"
+            ]  
+        },
+        {
+            "name": "Chorizo and prawn linguine",
+            "shortName": "chorizoAndPrawnLinguine",
+            "description": "Chorizo and prawns, plus some lime and vinegar make this full on but amazing tasting",
+            "steps": [
+                "Fry garlic, then chorizo, then prawns (get the chilli and coriander ones)",
+                "Mix in tomatoes and red wine vinegar",
+                "Add lime juice",
+                "Serve with spaghetti (or linguine)"
+            ],
+            "categories": [
+                "meat",
+                "fish",
+                "pasta"
+            ]
+        },
+        {
+            "name": "Pad Thai",
+            "shortName": "padThai",
+            "description": "Classic Thai dish of rice noodles with prawns, eggs and tamarind",
+            "steps": [
+                "Fry garlic and spring onions. Add rice noodles",
+                "Mix in combo of tamarind paste, fish sauce, sugar and chilli",
+                "Add prawns",
+                "When cooked add two eggs on the side of pan, beat till scrambled then mix in",
+                "Add beansprouts and roasted peanuts. Heat through"
+            ],
+            "categories": [
+                "stir fry",
+                "fish"
+            ]
+        }
+    ],
+
+    "categories": [
+        {
+            "name": "Pasta",
+            "shortName": "pasta"
+        },
+        {
+            "name": "Risotto",
+            "shortName": "risotto"
+        },
+        {
+            "name": "Stir fry",
+            "shortName": "stir fry"
+        },
+        {
+            "name": "Vegetarian",
+            "shortName": "vegetarian"
+        },
+        {
+            "name": "Fishy",
+            "shortName": "fish"
+        },
+        {
+            "name": "Meaty",
+            "shortName": "meat"
+        },
+        {
+            "name": "Everything",
+            "shortName": "all"
+        }
+    ]
 }

@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 David's recipes
+
+  if recipes.length
+    each recipe in recipes
+      p
+        a(href='/recipe/' + recipe.shortName)= recipe.name
+        p= recipe.description
+  else
+    p No recipes yet :(

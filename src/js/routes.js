@@ -3,11 +3,22 @@ const express = require('express');
 const router = express.Router();
 
 const Recipe = require('./recipe')
+const Category = require('./category')
 
 router.get('/', (req, res) => {
-    Recipe.find()
+    Category.find()
+        .then((categories) => {
+            res.render('home', { title: `David's recipes`, categories })
+        })
+        .catch(() => { res.send('Sorry! Something went wrong.'); })
+})
+
+router.get('/category/:categoryName', (req, res) => {
+    let query = req.params.categoryName === 'all' ? {} : { categories: req.params.categoryName }
+
+    Recipe.find(query)
         .then((recipes) => {
-            res.render('home', { title: `David's recipes`, recipes })
+            res.render('category', { title: `David's recipes`, recipes })
         })
         .catch(() => { res.send('Sorry! Something went wrong.'); })
 })
